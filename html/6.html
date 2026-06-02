@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Event Feedback & Handling</title>
+<style>
+    body { font-family: sans-serif; padding: 20px; }
+    .interactive-img { transition: all 0.3s ease; cursor: pointer; }
+</style>
+</head>
+<body>
+<h2>Interactive Feedback Form</h2>
+<form>
+    <label>Phone Number (blur to validate):</label><br>
+    <input type="text" placeholder="1234567890" onblur="if(this.value.length < 10) alert('Invalid phone number! Needs at least 10 digits.');">
+    
+    <br><br>
+    <label>Select Event (change to see fee):</label><br>
+    <select onchange="document.getElementById('fee').textContent = 'Fee: $' + this.value;">
+        <option value="0">Select Event</option>
+        <option value="10">Music - $10</option>
+        <option value="50">Tech - $50</option>
+    </select>
+    <span id="fee" style="font-weight:bold; margin-left:10px;">Fee: $0</span>
+    
+    <br><br>
+    <p>Double-click image to enlarge:</p>
+    <img src="https://picsum.photos/100" alt="Event" class="interactive-img" ondblclick="this.style.width='200px'; this.style.height='200px';">
+    
+    <br><br>
+    <label>Feedback (type to count chars):</label><br>
+    <textarea onkeyup="document.getElementById('charCount').textContent = this.value.length + ' chars';"></textarea>
+    <p id="charCount">0 chars</p>
+    
+    <button type="button" onclick="alert('Submission Confirmed!');">Confirm</button>
+</form>
+</body>
+</html>

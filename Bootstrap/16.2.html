@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise 16.2 - Overlaying Badge on Image</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="mb-4">Position Relative and Absolute - Badge Overlay</h1>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="position-relative d-inline-block">
+          <img src="https://i.pravatar.cc/200?img=5" class="rounded" alt="User Photo">
+          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+            99+ <span class="visually-hidden">notifications</span>
+          </span>
+        </div>
+        <p class="mt-2 small text-muted">Badge top-right using position-absolute</p>
+      </div>
+      <div class="col-md-4">
+        <div class="position-relative" style="width:200px;">
+          <img src="https://i.pravatar.cc/200?img=10" class="img-fluid rounded" alt="Product">
+          <span class="position-absolute top-0 start-0 badge bg-success m-2">New</span>
+          <span class="position-absolute bottom-0 end-0 badge bg-warning text-dark m-2">Sale</span>
+        </div>
+        <p class="mt-2 small text-muted">Multiple badges overlaid on image corners</p>
+      </div>
+      <div class="col-md-4">
+        <div class="position-relative bg-light border rounded p-4" style="height:150px;">
+          <span class="position-absolute top-50 start-50 translate-middle badge bg-primary fs-6">Centered Badge</span>
+        </div>
+        <p class="mt-2 small text-muted">Badge centered using top-50 + translate-middle</p>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

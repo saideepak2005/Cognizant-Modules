@@ -1,0 +1,5 @@
+body { font-family: sans-serif; background: #eceff1; margin: 0; }
+header { background: #455a64; color: white; padding: 20px; text-align: center; }
+main { padding: 20px; max-width: 800px; margin: auto; }
+.card { background: white; padding: 15px; margin-bottom: 15px; border-radius: 5px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+.prop { font-family: monospace; color: #d32f2f; }

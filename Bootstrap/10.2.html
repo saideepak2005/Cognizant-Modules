@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise 10.2 - Nav Tabs and Pills</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="mb-4">Nav Tabs and Pills</h1>
+
+    <h5 class="mb-2">Nav Tabs</h5>
+    <ul class="nav nav-tabs mb-3" id="myTabs">
+      <li class="nav-item">
+        <a class="nav-link active" data-bs-toggle="tab" href="#tab1">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="tab" href="#tab2">Profile</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="tab" href="#tab3">Settings</a>
+      </li>
+    </ul>
+    <div class="tab-content border p-3 rounded mb-5">
+      <div class="tab-pane fade show active" id="tab1">Home tab content is displayed here.</div>
+      <div class="tab-pane fade" id="tab2">Profile tab content is displayed here.</div>
+      <div class="tab-pane fade" id="tab3">Settings tab content is displayed here.</div>
+    </div>
+
+    <h5 class="mb-2">Nav Pills</h5>
+    <ul class="nav nav-pills mb-3" id="myPills">
+      <li class="nav-item">
+        <a class="nav-link active" data-bs-toggle="pill" href="#pill1">Dashboard</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="pill" href="#pill2">Analytics</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="pill" href="#pill3">Reports</a>
+      </li>
+    </ul>
+    <div class="tab-content border p-3 rounded">
+      <div class="tab-pane fade show active" id="pill1">Dashboard content area.</div>
+      <div class="tab-pane fade" id="pill2">Analytics content area.</div>
+      <div class="tab-pane fade" id="pill3">Reports content area.</div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

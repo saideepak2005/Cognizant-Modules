@@ -1,0 +1,11 @@
+body { font-family: sans-serif; background: #fce4ec; margin: 0; }
+header { background: #c2185b; color: white; padding: 20px; text-align: center; }
+main { padding: 20px; max-width: 500px; margin: auto; }
+form { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+.form-group { margin-bottom: 15px; }
+label { display: block; margin-bottom: 5px; font-weight: bold; }
+input, select { width: 100%; padding: 8px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; }
+.error { color: #d32f2f; font-size: 0.85rem; display: block; margin-top: 5px; }
+.success { color: #388e3c; font-weight: bold; margin-top: 15px; }
+.btn { background: #c2185b; color: white; border: none; padding: 10px 15px; border-radius: 4px; cursor: pointer; width: 100%; }
+.btn:hover { background: #880e4f; }

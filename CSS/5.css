@@ -1,0 +1,5 @@
+body { font-family: 'Roboto', sans-serif; color: #333; }
+header { background: #283593; padding: 20px; text-align: center; }
+.main-title { font-weight: 700; font-size: 2.5rem; color: white; letter-spacing: 2px; text-transform: uppercase; }
+.section-title { font-weight: 700; font-size: 1.8rem; color: #1a237e; text-align: center; margin-top: 20px; }
+.desc-text { font-weight: 300; font-size: 1.2rem; line-height: 1.6; text-align: center; margin: 20px; }

@@ -1,5 +1,0 @@
-body { background-color: #f0f0f0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAIklEQVQIW2NkQAKrVq36zwjjgzhhYWGMYAEYB8RmROaABADeOQ8CXl/xfgAAAABJRU5ErkJggg=='); font-family: sans-serif; }
-.gradient-header { background: linear-gradient(to right, #1a237e, #4fc3f7); color: white; padding: 30px; text-align: center; }
-main { padding: 20px; max-width: 800px; margin: auto; background: white; }
-.hex-text { color: #d32f2f; }
-.rgba-bg { background-color: rgba(0, 123, 255, 0.8); color: white; padding: 15px; border-radius: 5px; }

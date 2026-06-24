@@ -1,9 +1,0 @@
-body { font-family: sans-serif; }
-.main-nav { background: #1a237e; padding: 15px; }
-.nav-list { list-style-type: none; margin: 0; padding: 0; display: flex; gap: 20px; }
-.nav-list a:link { color: white; text-decoration: none; }
-.nav-list a:visited { color: #bbdefb; }
-.nav-list a:hover { color: #ffeb3b; }
-.nav-list a:active { color: #f44336; }
-.styled-list { list-style-type: square; list-style-position: inside; margin: 20px; padding: 20px; background: #e3f2fd; }
-.styled-list li { margin-bottom: 10px; padding: 5px; background: white; }

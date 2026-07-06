@@ -1,0 +1,4 @@
+15:22:49.042 [main] DEBUG org.example.LoggingExample - Debug Message
+15:22:49.043 [main] INFO  org.example.LoggingExample - Information Message
+15:22:49.044 [main] WARN  org.example.LoggingExample - Warning Message
+15:22:49.044 [main] ERROR org.example.LoggingExample - Error Message

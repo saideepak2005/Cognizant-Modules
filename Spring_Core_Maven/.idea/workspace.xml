@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ccd6436-bda1-49c8-9af4-74df773e1337" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Excericse6/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Excericse6/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Excericse6/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Excericse6/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Excericse6/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Excericse9/src/main/java/com/library/controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Excericse9/src/main/java/com/library/entity/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Excericse9/src/main/java/com/library/resources/application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Excericse9/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
